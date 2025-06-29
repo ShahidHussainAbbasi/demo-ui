@@ -1,5 +1,7 @@
 FROM node:20.15.1 AS build
 
+RUN ["echo", "WELCOME TO THE demo-ui Dockerfile"]
+
 WORKDIR /app
 
 COPY . .
