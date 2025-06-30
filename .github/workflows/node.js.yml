@@ -32,7 +32,7 @@ jobs:
       
     # {5}
     - name: Build
-      run: npm run build
+      run: npm run build --if-present
     # {6}
     - name: Run tests
       run: npm test
