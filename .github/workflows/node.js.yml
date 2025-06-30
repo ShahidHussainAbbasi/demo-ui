@@ -32,7 +32,7 @@ jobs:
       
     # {5}
     - name: Run tests
-      run: npm run test:ci
+      run: npm test
     # {6}
     - name: Build
       run: npm run build
