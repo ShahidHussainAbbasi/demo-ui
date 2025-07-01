@@ -44,3 +44,4 @@ jobs:
         tags: maxtheservice/demo-ui:latest
 
     # - run: npm test
+    

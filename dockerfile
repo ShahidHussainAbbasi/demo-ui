@@ -1,4 +1,4 @@
-FROM node:20.15.1 AS build
+FROM node:22.17.0 AS build
 
 RUN ["echo", "WELCOME TO THE demo-ui Dockerfile"]
 
